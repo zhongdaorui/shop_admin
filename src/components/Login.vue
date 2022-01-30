@@ -75,8 +75,7 @@ export default {
 <style lang="stylus" scoped>
 .loginWarp 
   height: 100%;
-  background-color: #2b4b6b;
-
+  background-color:#2b4b6b;
   .from 
     width: 450px;
     height: 300px;
@@ -113,7 +112,6 @@ export default {
       width: 100%;
       padding: 0 20px;
       box-sizing: border-box;
-
       .btns 
         display: flex;
         justify-content: flex-end;
