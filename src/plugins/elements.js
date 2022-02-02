@@ -19,7 +19,12 @@ Input,
  Switch,
  Tooltip,
  Pagination,
- Dialog
+ Dialog,
+ Tag,
+ MessageBox,
+ Tree,
+ Select,
+ Option
 
 
 
@@ -47,4 +52,9 @@ Vue.use(Tooltip)
 Vue.use(Switch)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
+Vue.prototype.$confirm = MessageBox.confirm
 Vue.prototype.$message = Message
